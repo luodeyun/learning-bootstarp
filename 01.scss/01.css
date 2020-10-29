@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#d1 {
+  background-color: #ff44ff; }
+
+p {
+  content: "abc";
+  width: 4px;
+  height: 5px; }
+
+div {
+  content: '兰博基尼'; }

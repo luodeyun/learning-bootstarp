@@ -1,0 +1,26 @@
+#d1{
+    background-color: #cc11aa+#bb33aa;
+ 
+}
+p{
+    content:quote(abc);
+    width:round(4.2px);
+    height: ceil(4.1px) //向上取整
+}
+$s:95;
+div{
+    @if($s>90){
+        content:'兰博基尼';
+        
+    }
+    @else if($s>80){
+        content:'GTR';
+    }
+    @else if($s>70){
+        content: '霸道';
+    }
+    @else if($s>60){
+        content:'CC'
+    }
+}
+    
